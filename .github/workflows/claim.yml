@@ -11,28 +11,10 @@ on: # When to run this workflow
 #        types: [started] # When repo owner stars this repo
 
     schedule:
-        - cron: "17 8 * * *" # Everyday at 00:00 UTC
+        - cron: "05 15 * * *" # Everyday at 00:00 UTC
 
 jobs:
-    claim:
-        runs-on: ubuntu-latest
-
-        timeout-minutes: 5 # Automatically stop after 5 minutes
-
-        steps:
-            - name: Setup repo
-              uses: actions/checkout@v2
-              with:
-                  repository: "Revadike/epicgames-freebies-claimer"
-
-            - name: Setup Node.js
-              uses: actions/setup-node@v1
-
-            - name: Install dependencies
-              run: yarn
-
-            - name: Get Epic Freebies
-              run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
+            
   claim2:
         runs-on: ubuntu-latest
 
@@ -52,3 +34,5 @@ jobs:
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.AUSERNAME }} ${{ secrets.APASSWORD }} 0 ${{ secrets.BSECRETKEY }}
+             - name: Get Epic Freebies1
+              run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
