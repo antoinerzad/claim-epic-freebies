@@ -52,6 +52,6 @@ jobs:
             - name: Install dependencies
               run: yarn
             - name: Sleep 12
-              command: sleep '12'
+              run: sleep '12'
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
