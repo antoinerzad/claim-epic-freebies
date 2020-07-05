@@ -55,8 +55,8 @@ jobs:
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
               
-              
-      claim-antoinerzad3:
+
+  claim-antoinerzad3:
         runs-on: ubuntu-latest
 
         timeout-minutes: 5 # Automatically stop after 5 minutes
@@ -76,7 +76,7 @@ jobs:
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.BUSERNAME }} ${{ secrets.BPASSWORD }} 0 ${{ secrets.BSECRETKEY }}
               
-      claim-antoinerzad4:
+  claim-antoinerzad4:
         runs-on: ubuntu-latest
 
         timeout-minutes: 5 # Automatically stop after 5 minutes
