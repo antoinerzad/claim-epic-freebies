@@ -23,7 +23,7 @@ jobs:
             - name: Setup repo
               uses: actions/checkout@v2
               with:
-                  repository: "Revadike/epicgames-freebies-claimer"
+                  repository: "antoinerzad/epicgames-freebies-claimer"
 
             - name: Setup Node.js
               uses: actions/setup-node@v1
@@ -44,7 +44,7 @@ jobs:
             - name: Setup repo
               uses: actions/checkout@v2
               with:
-                  repository: "Revadike/epicgames-freebies-claimer"
+                  repository: "antoinerzad/epicgames-freebies-claimer"
 
             - name: Setup Node.js
               uses: actions/setup-node@v1
@@ -63,7 +63,7 @@ jobs:
             - name: Setup repo
               uses: actions/checkout@v2
               with:
-                  repository: "Revadike/epicgames-freebies-claimer"
+                  repository: "antoinerzad/epicgames-freebies-claimer"
 
             - name: Setup Node.js
               uses: actions/setup-node@v1
@@ -83,7 +83,7 @@ jobs:
             - name: Setup repo
               uses: actions/checkout@v2
               with:
-                  repository: "JourneyDeprecated/epicgames-freebies-claimer/tree/2FA-Fix"
+                  repository: "antoinerzad/epicgames-freebies-claimer"
 
             - name: Setup Node.js
               uses: actions/setup-node@v1
