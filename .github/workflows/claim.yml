@@ -93,6 +93,105 @@ jobs:
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.CUSERNAME }} ${{ secrets.CPASSWORD }} 0 ${{ secrets.CSECRETKEY }}
+    claim-antoinerzad5:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "antoinerzad/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.DUSERNAME }} ${{ secrets.DPASSWORD }} 0 ${{ secrets.DSECRETKEY }}
+ 
+    claim-antoinerzad7:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "antoinerzad/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.EUSERNAME }} ${{ secrets.EPASSWORD }} 0 ${{ secrets.ESECRETKEY }}
+  
+    claim-antoinerzad9:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "antoinerzad/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.FUSERNAME }} ${{ secrets.FPASSWORD }} 0 ${{ secrets.FSECRETKEY }}
+ 
+    claim-antoinerzad10:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "antoinerzad/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.GUSERNAME }} ${{ secrets.GPASSWORD }} 0 ${{ secrets.GSECRETKEY }}
+ 
+    claim-antoinerzad12:
+        runs-on: ubuntu-latest
+
+        timeout-minutes: 5 # Automatically stop after 5 minutes
+
+        steps:
+            - name: Setup repo
+              uses: actions/checkout@v2
+              with:
+                  repository: "antoinerzad/epicgames-freebies-claimer"
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v1
+
+            - name: Install dependencies
+              run: yarn
+
+            - name: Get Epic Freebies
+              run: yarn start ${{ secrets.HUSERNAME }} ${{ secrets.HPASSWORD }} 0 ${{ secrets.HSECRETKEY }}
 
                                     
 
