@@ -23,7 +23,7 @@ jobs:
             - name: Setup repo
               uses: actions/checkout@v2
               with:
-                  repository: "antoinerzad/epicgames-freebies-claimer"
+                  repository: "Revadike/epicgames-freebies-claimer"
 
             - name: Setup Node.js
               uses: actions/setup-node@v1
