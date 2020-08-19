@@ -30,6 +30,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.AUSERNAME }} ${{ secrets.APASSWORD }} 0 ${{ secrets.BSECRETKEY }}
@@ -51,6 +55,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.USERNAME }} ${{ secrets.PASSWORD }} 0 ${{ secrets.SECRETKEY }}
@@ -70,7 +78,11 @@ jobs:
 
             - name: Install dependencies
               run: yarn
-
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
+              
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.BUSERNAME }} ${{ secrets.BPASSWORD }} 0 ${{ secrets.BSECRETKEY }}
               
@@ -90,6 +102,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+          
+         
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.CUSERNAME }} ${{ secrets.CPASSWORD }} 0 ${{ secrets.CSECRETKEY }}
@@ -109,6 +125,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.DUSERNAME }} ${{ secrets.DPASSWORD }} 0 ${{ secrets.DSECRETKEY }}
@@ -129,6 +149,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+            
+            
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.EUSERNAME }} ${{ secrets.EPASSWORD }} 0 ${{ secrets.ESECRETKEY }}
@@ -149,6 +173,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+           
+            
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.FUSERNAME }} ${{ secrets.FPASSWORD }} 0 ${{ secrets.FSECRETKEY }}
@@ -169,6 +197,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstore
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.GUSERNAME }} ${{ secrets.GPASSWORD }} 0 ${{ secrets.GSECRETKEY }}
@@ -189,6 +221,10 @@ jobs:
 
             - name: Install dependencies
               run: yarn
+              
+              
+            - name: Hotfix for \#4 # https://github.com/xuac/claim-epic-freebies/issues/4
+              run: mkdir .egstor
 
             - name: Get Epic Freebies
               run: yarn start ${{ secrets.HUSERNAME }} ${{ secrets.HPASSWORD }} 0 ${{ secrets.HSECRETKEY }}
